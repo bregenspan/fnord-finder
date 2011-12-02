@@ -2,14 +2,6 @@ $.noConflict();
 
 (function($) {
 
-    // workaround for double-loading issue caused by
-    //  tabs.onUpdated being fired when favicon is detected
-    // TODO: better workaround if possible
-    if (window.FNORD_FINDER) {
-        return;
-    }
-    window.FNORD_FINDER = true;
-
     /* fnords are usually hidden in every second
      * paragraph containing "by".
      *

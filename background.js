@@ -2,6 +2,13 @@
 
     // Inject if nytimes
     function checkForValidUrl(tabId, changeInfo, tab) {
+
+        // hook on during load event only
+        if (!changeInfo.status || changeInfo.status !== 'loading')
+        {
+            return;
+        }
+
         if (tab.url.indexOf('nytimes.com') > -1) {
             chrome.tabs.executeScript(tabId, { file: "lib/jquery-1.7.1.min.js" });
             chrome.tabs.executeScript(tabId, { file: "lib/jquery.color.js" });
