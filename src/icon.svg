@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="icon.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3837">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3839" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3841" />
+    </linearGradient>
+    <filter
+       id="filter3765"
+       inkscape:label="Ripple"
+       inkscape:menu="Distort"
+       inkscape:menu-tooltip="Horizontal rippling of edges"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence3767"
+         numOctaves="1"
+         baseFrequency="0.002 0.107" />
+      <feColorMatrix
+         id="feColorMatrix3769"
+         values="2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap3771"
+         in2="result91"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         scale="14.3"
+         in="SourceGraphic" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3837"
+       id="linearGradient3843"
+       x1="402.48758"
+       y1="649.23541"
+       x2="428.60703"
+       y2="716.8783"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0946305,0.1400529,-0.12691082,0.99191413,13.571696,-33.756362)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.31"
+     inkscape:cx="233.1952"
+     inkscape:cy="555.95995"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="896"
+     inkscape:window-height="682"
+     inkscape:window-x="57"
+     inkscape:window-y="264"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2985"
+       style="font-size:40px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#6666ac;fill-opacity:1;stroke:none;filter:url(#filter3765);font-family:Vemana2000;-inkscape-font-specification:Vemana2000 Bold Italic"
+       transform="matrix(3.2098465,0.02316301,0.61839168,2.4038458,-647.8928,-424.67)"
+       inkscape:export-filename="/home/ben/DEV/chrome-fnordfinder/rect3763.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion2987"><rect
+           id="rect2989"
+           width="302.85715"
+           height="437.14285"
+           x="157.14285"
+           y="280.93362"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#6666ac;fill-opacity:1;font-family:Vemana2000;-inkscape-font-specification:Vemana2000 Bold Italic" /></flowRegion><flowPara
+         id="flowPara2991"
+         style="font-size:144px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#6666ac;fill-opacity:1;font-family:Vemana2000;-inkscape-font-specification:Vemana2000 Bold Italic">F</flowPara></flowRoot>    <path
+       sodipodi:type="arc"
+       id="path2993"
+       sodipodi:cx="302.85715"
+       sodipodi:cy="600.93359"
+       sodipodi:rx="268.57144"
+       sodipodi:ry="268.57144"
+       d="m 571.42859,600.93359 a 268.57144,268.57144 0 1 1 -537.142884,0 268.57144,268.57144 0 1 1 537.142884,0 z"
+       transform="matrix(0.72664962,0.09297145,-0.09297145,0.72664962,74.862054,-9.3606065)"
+       style="fill:none;stroke:#000000;stroke-width:76.19444275;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ben/DEV/chrome-fnordfinder/rect3763.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3843);fill-opacity:1;stroke:none"
+       d="m 369.97517,568.91068 -53.65313,39.73085 91.93435,101.55109 101.35595,12.96802 -139.63717,-154.24996 z"
+       id="rect3763"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
