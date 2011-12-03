@@ -1,12 +1,14 @@
+/*global chrome*/
+
 $.noConflict();
 
-(function($) {
+(function ($) {
 
     /* fnords are usually hidden in every second
      * paragraph containing "by".
      *
      * they occur 7 words prior to the last
-     * "the" in said paragraphs 
+     * "the" in said paragraphs
      */
     var paragraphs = $('.mod-articletext p:contains("by "), .articleBody p:contains("by ")');
     for (var i = 1, len = paragraphs.length; i < len; i += 2) {
@@ -25,15 +27,15 @@ $.noConflict();
 
         // count backwards from last "the"
         for (var jlen = tokens.length, j = jlen; j >= 0; j--) {
-           if (tokens[j] === 'the') {
-               if (tokens[j - 7]) {
-                  // get reasonably long enough string to match against
-                  // without likelihood of encountering duplicates
-                  var slice = tokens.slice(j - 7, j - 3);
-                  textToPrependFnord = slice.join(' ');
-                  break;
-               }
-           }
+            if (tokens[j] === 'the') {
+                if (tokens[j - 7]) {
+                    // get reasonably long enough string to match against
+                    // without likelihood of encountering duplicates
+                    var slice = tokens.slice(j - 7, j - 3);
+                    textToPrependFnord = slice.join(' ');
+                    break;
+                }
+            }
         }
 
         // add the discovered fnord
@@ -41,7 +43,7 @@ $.noConflict();
         if (textToPrependFnord) {
             var html = $(paragraphs[i]).html().replace(
                 textToPrependFnord, '<span class="fnord">fnord</span> '
-                + textToPrependFnord); 
+                + textToPrependFnord);
             $(paragraphs[i]).html(html);
         }
     }
@@ -53,7 +55,7 @@ $.noConflict();
         chrome.extension.sendRequest({ fnordsFound: true });
 
         // Handle click of page action icon by switching fnord
-        chrome.extension.onRequest.addListener(function(request, sender) {
+        chrome.extension.onRequest.addListener(function (request, sender) {
             if (typeof request === 'object' && request.switchFnord) {
 
                 // show first fnord if none selected yet, otherwise next fnord
@@ -69,12 +71,12 @@ $.noConflict();
                 // scroll to and highlight the fnord
                 $('html, body').stop().animate({
                     scrollTop: $(selected).offset().top - 20
-                }, 1000, function() {
+                }, 1000, function () {
                     fnords.filter('.selected').stop().css('backgroundColor', '#ffff9c')
                         .animate({ backgroundColor: "#fff" }, 2000);
                 });
-            } 
+            }
         });
     }
 
-})(jQuery);
+}(jQuery));
