@@ -1,7 +1,7 @@
 FNORDFINDER - (c) RegenspanTeractive
 ===========================================================
 
-Desription
+Description
 ----------
 
 This Chrome extension exposes instances of the word "fnord" hidden within NYTimes articles.
